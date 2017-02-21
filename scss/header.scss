@@ -1,0 +1,141 @@
+/* main: ./style.scss*/
+
+.siteHeader {
+    padding-top: em($base-line-height);
+    position: relative;
+}
+
+header {
+    //margin-bottom: em($base-line-height);
+}
+
+.decorativeBorder {
+    height: 5px;
+    background-color: $brand-color;
+    position: absolute;
+    width: 100%;
+    top: 0;
+    z-index: 0;
+}
+
+.logo {
+    float: left;
+}
+
+.logo-img {
+    position: absolute;
+    top: 0;
+    z-index: 100;
+}
+
+.overlay-toggle {
+    display: none;
+}
+
+.toggle-label {
+    position: absolute;
+    z-index: 100;
+    right: 0;
+    white-space: nowrap;
+    text-align: right;
+    cursor: pointer;
+    
+    //width: 100px;
+    
+    & > span {
+        
+        padding: 3px 10px;
+        margin-top: -4px;
+        border-radius: 5px;
+        border: 1px solid $brand-color;
+        display: block;
+        transition: background-color 0.1s, color 0.1s;
+        
+        &:active {
+            transform: scale(0.9);
+        }
+        
+        &:hover, &:focus {
+            background-color: $brand-color;
+            color: #fff;
+        }
+        
+        -webkit-user-select: none;
+           -moz-user-select: none;
+            -ms-user-select: none;
+                user-select: none;
+    }
+}
+
+.overlay-toggle {
+    
+    & ~ .toggle-label {
+        
+        .toggle-off {
+            display: none;
+        }
+        
+    }
+    
+    & ~ .overlay.togglable {
+        display: block;
+        opacity: 0;
+        transition: opacity 0.2s, visibility 0.2s;
+        visibility: hidden;
+        
+        .overlay-content {
+            transform: translateY(20px);
+            opacity: 0;
+            transition: opacity 1s, transform 1s;
+            
+        }
+    }
+}
+
+.overlay-toggle:checked {
+    
+    & ~ .toggle-label {
+        
+        position: fixed;
+        right: $grid-gutter * 2;
+        
+        .toggle-on {
+            display: none;
+        }
+        
+        .toggle-off {
+            display: block;
+        }
+        
+    }
+    
+    & ~ .overlay.togglable {
+        position: fixed;
+        top: 0;
+        opacity: 1;
+        pointer-events: auto;
+        visibility: visible;
+        
+        .overlay-content {
+            transform: translateY(0);
+            opacity: 1;
+        }
+    }
+}
+
+.btn-container {
+    float: right;
+    position: relative;
+}
+
+
+@media screen and (min-width: $breakpoint-large) {
+    
+    .logo-text {
+        // margin-left: 91px;
+    }
+    
+    header {
+        height: em($base-line-height * 3);
+    }
+}

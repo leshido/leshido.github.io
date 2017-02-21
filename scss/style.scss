@@ -1,0 +1,26 @@
+// compileCompressed: ../css/$1.css
+
+// Grid Sizing
+$breakpoint-small: 1024px;
+$breakpoint-large: 1024px;
+$grid-gutter: 10px;
+$max-width: 100%;
+
+// Typography
+$font-family: 'Miriam Libre', sans-serif;
+$base-font-size: 18;
+$base-line-height: 27;
+$scale: 1.333;
+
+// Colors
+$brand-color: rgb(16, 21, 133);
+//$brand-color2: rgb(17, 138, 215);
+$brand-color2: rgb(215, 17, 89);
+$brand-mono: #e8e5e3;
+
+
+// Include all
+@import "../../../sass-framework/scss/all";
+@import "theme";
+@import "header";
+@import "misc";

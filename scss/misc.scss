@@ -1,0 +1,125 @@
+/* main: ./style.scss*/
+
+svg.icon {
+    fill: currentColor;
+    height: 1em;
+    line-height: normal;
+    vertical-align: -0.15em;
+    display: inline-block;
+    margin: 0;
+    padding: 0;
+}
+
+.showcase {
+    
+    position: relative;
+    width: 100%;
+    margin-bottom: em($base-line-height);
+    margin-top: em($base-line-height);
+    
+    .showcase-inner {
+        border: 1px solid $brand-color;
+        position: absolute;
+        display: block;
+        overflow: hidden;
+        
+        img {
+            margin: 0;
+            white-space: 0;
+            min-width: 100%;
+            max-height: 100%;
+            position: absolute;
+            left: 50%;
+            top: 50%;
+            transform: translateY(-50%) translateX(-50%);
+        }
+    }
+    
+    &.showcase--mobile {
+        max-width: 320px;
+        
+        &::before {
+            content: url('../img/mockups/mobile.svg');
+        }
+        
+        .showcase-inner {
+            top: 13.2%;
+            border-radius: 3px;
+            bottom: 14.2%;
+            left: 8.2%;
+            right: 8.2%;
+        }
+    }
+    
+    &.showcase--screen {
+        max-width: 720px;
+        
+        &::before {
+            content: url('../img/mockups/screen.svg');
+        }
+        
+        .showcase-inner {
+            top: 5%;
+            bottom: 33.7%;
+            left: 4.3%;
+            right: 4.3%;
+        }
+    }
+    
+}
+
+.grid--flex_equalHeights {
+    
+    display: flex;
+    
+    [class*='col-'] {
+        align-items: stretch;
+        flex: 1;
+    }
+}
+
+.mt-auto {
+    margin-top: auto;
+}
+
+.spreadOut {
+    
+    &::before {
+        content: "";
+        
+    }
+    
+    background-color: $brand-mono;
+    margin-left: -999em;
+    padding-left: 999em;
+    margin-right: -999em;
+    padding-right: 999em;
+    // padding-top: em($base-line-height);
+    // padding-bottom: em($base-line-height);
+}
+
+.gallery {
+    overflow-x: auto;
+    white-space: nowrap;
+    width: 100%;
+    padding: 0 $grid-gutter*2;
+    margin-bottom: em($base-line-height);
+    overflow-y: hidden;
+    text-align: center;
+    
+    img {
+        max-width: 100%;
+        padding: 0 $grid-gutter*2;
+        margin: 0 -1*($grid-gutter*2);
+    }
+}
+
+.grid .gallery {
+    padding-right: 0;
+    padding-left: 0;
+    
+    img {
+        margin: 0;
+        padding: 0;
+    }
+}

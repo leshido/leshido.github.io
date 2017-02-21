@@ -1,0 +1,25 @@
+
+body {
+    position: relative;
+}
+
+body::after {
+    content: "";
+    background-image: url('data:image/svg+xml;utf8,<svg width="1" height="27" xmlns="http://www.w3.org/2000/svg"><rect width="1" height="0.5" style="fill:rgba(0, 255, 255, 0.3)" /></svg>');
+    background-repeat: repeat;
+    background-position: top left;
+    width: auto;
+    height: auto;
+    display: block;
+    pointer-events: none;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 9999;
+    position: absolute;
+}
+
+body:active::after {
+    display: none;
+}
