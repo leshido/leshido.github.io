@@ -23,7 +23,7 @@
         
 
 &lt;div class=&#34;col-2-3&#34;&gt;
-    &lt;p&gt;All backgrounds are hand-drawn, designed to feel like a Japanese animated series.&lt;/p&gt;
+    &lt;p&gt;All backgrounds are completely hand-drawn, designed to feel like background art from an animated series.&lt;/p&gt;
 
 &lt;p&gt;&lt;img src=&#34;http://leshido.com/img/projects/dynamons-world/bg-art.png&#34; class=&#34;mb-1 media-fluid centered dblock&#34; alt=&#34;Background Art from Dynamons World&#34;&gt;&lt;/p&gt;
 
@@ -58,7 +58,7 @@
     &lt;div class=&#34;col-1-1&#34;&gt;
 
 &lt;div class=&#34;align-c&#34;&gt;
-    &lt;p&gt;For more details and where to play, check out &lt;a href=&#34;http://dynamons.world&#34;&gt;this link&lt;/a&gt;!&lt;/p&gt;
+    &lt;p&gt;To learn more and find out where to play, visit &lt;a href=&#34;http://dynamons.world&#34;&gt;this page&lt;/a&gt;!&lt;/p&gt;
 
 &lt;/div&gt;
 </description>
@@ -111,21 +111,11 @@
 
 &lt;img src=&#34;http://leshido.com/img/projects/dduck/logo.gif&#34; class=&#34;mb-1 media-fluid centered dblock&#34; alt=&#34;Double Duck logo&#34;&gt;
 
-&lt;div class=&#34;spreadOut mb-1&#34;&gt;
-    &lt;div class=&#34;grid&#34;&gt;
-    
-        &lt;div class=&#34;col-1-1&#34;&gt;
-    &lt;p&gt;&lt;div class=&#34;align-c&#34;&gt;
-    &lt;p&gt;Logo evolution&lt;/p&gt;&lt;/p&gt;
+&lt;p&gt;&lt;div class=&#34;align-c&#34;&gt;
+    &lt;p&gt;Logo evolution&lt;/p&gt;
 
-&lt;p&gt;&lt;/div&gt;
+&lt;/div&gt;
 &lt;img src=&#34;http://leshido.com/img/projects/dduck/logo-evo.png&#34; class=&#34;mb-1 media-fluid centered dblock&#34; alt=&#34;Logo evolution&#34;&gt;&lt;/p&gt;
-
-&lt;/div&gt;
-
-    
-    &lt;/div&gt;
-&lt;/div&gt;
 
 &lt;div class=&#34;showcase showcase--screen centered&#34;&gt;
     &lt;div class=&#34;showcase-inner&#34;&gt;
@@ -137,6 +127,34 @@
     &lt;p&gt;Visit the &lt;a href=&#34;http://doubleduck.co&#34;&gt;Double Duck site&lt;/a&gt; to learn more.&lt;/p&gt;
 
 &lt;/div&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Baseline Grid</title>
+      <link>http://leshido.com/baseline-grid</link>
+      <pubDate>Wed, 22 Feb 2017 15:57:19 +0200</pubDate>
+      
+      <guid>http://leshido.com/baseline-grid</guid>
+      <description>
+
+&lt;h3 id=&#34;simple-css-svg-solution-to-help-with-vertical-rhythm&#34;&gt;Simple CSS+SVG solution to help with vertical rhythm&lt;/h3&gt;
+
+&lt;p&gt;As web designers, we are constantly concerned with the concept of rhythm. Rhythm gives clarity and order to our designs, making our websites more readable and less cluttered.&lt;/p&gt;
+
+&lt;p&gt;I tend to think of rhythm as two separate, yet interlaced, spacing systems in both axes. On the horizontal axis, many designers use some form of a grid (i.e the famous &lt;a href=&#34;http://960.gs/&#34;&gt;960 grid system&lt;/a&gt;). This underlying structure helps break the content to multiple pieces, each carefully spaced from the others by a uniform gutter.&lt;/p&gt;
+
+&lt;p&gt;The second axis is, of course, the vertical one. Here, rhythm is more easily ignored. While laying out the content horizontally is, usually, a manner of floating divs (or, more recently, flexbox), properly aligning content on a vertical axis is, mainly, a careful consideration of web typography. Because most content on the web is text, evident by the fact we have so many text related HTML tags, vertical rhythm is mostly formed by the relation of these tags to one another.&lt;/p&gt;
+
+&lt;p&gt;A great article by Richard Rutter, &lt;a href=&#34;https://24ways.org/2006/compose-to-a-vertical-rhythm/&#34;&gt;&amp;lsquo;Compose to a Vertical Rhythm&amp;rsquo;&lt;/a&gt;, goes into far more detail on how to implement a visually pleasing vertical rhythm in web design. However, one caveat is that vertical rhythm is hard to measure. In Adobe InDesign, and other page layout tools, we usually have a simple command to show the baseline grid. In web design, though, we don&amp;rsquo;t have it that easy.&lt;/p&gt;
+
+&lt;p&gt;A nice tool I found to tackle this issue for me is called &lt;a href=&#34;https://basehold.it/&#34;&gt;Basehold.it&lt;/a&gt;. It does a very simple thing - it displays a grid of vertical lines over the entire page. This is great for aligning things and making sure that the vertical rhythm is maintained throughout. However, I soon had some minor troubles with the service, mainly related to their servers taking too long to respond. I realized there must be some way to host the service locally and quickly decided to replace their image generation code with a far simpler solution: SVG.&lt;/p&gt;
+
+&lt;p&gt;The result was a single, easily maintainable CSS file, which uses SVG background-image to create the grid lines. I share this snippet of code here, so if you&amp;rsquo;re looking into vertical rhythm and need a quick tool to show the baseline grid, there you have it:&lt;/p&gt;
+
+&lt;script src=&#34;//gist.github.com/leshido/af24e64ab6627328bfcb7ae0e93a9684.js&#34;&gt;&lt;/script&gt;
+
+&lt;p&gt;To use, simply change the height parameter after the first comment, and add the line &lt;code&gt;&amp;lt;link rel=&amp;quot;stylesheet&amp;quot; href=&amp;quot;path/to/baseline.css&amp;quot;&amp;gt;&lt;/code&gt; to your page. Just remember to remove the stylesheet before sending the page to production!&lt;/p&gt;
 </description>
     </item>
     

@@ -7,7 +7,7 @@
         <meta name="HandheldFriendly" content="True">
         <meta name="MobileOptimized" content="320">
         
-        <title>Ido Leshem | Sneaky James</title>
+        <title>Ido Leshem | Baseline Grid</title>
         <meta name="description" content="The portfolio and blog of Ido Leshem, a designer + developer">
         
         <meta name="author" content="Ido Leshem (@leshido)">
@@ -77,30 +77,26 @@
         <div class="mb-2">
             <div class="grid grid--maxSize">
                 <div class="col-1-1">
-                    <h1>Sneaky James</h1>
-                    <p>Sneaky James is a mobile-friendly web stealth game, released also as a mobile app. The player takes control over a cat burglar, using timing and careful planning to outwit the guards and get away with the loot.</p>
+                    <h1>Baseline Grid</h1>
+                    
 
-<p>The game&rsquo;s art style was inspired by Film Noir and detective movies, but had to be kept casual enough to appeal to younger audiences.</p>
+<h3 id="simple-css-svg-solution-to-help-with-vertical-rhythm">Simple CSS+SVG solution to help with vertical rhythm</h3>
 
-</div> 
-</div> 
-<div class="gallery">
-    
-    <img src="/img/projects/sneaky-james/scr1.png" alt="">
-    <img src="/img/projects/sneaky-james/scr4.png" alt="">
-    <img src="/img/projects/sneaky-james/scr2.png" alt="">
-    <img src="/img/projects/sneaky-james/scr3.png" alt="">
+<p>As web designers, we are constantly concerned with the concept of rhythm. Rhythm gives clarity and order to our designs, making our websites more readable and less cluttered.</p>
 
-</div>
-<div class="grid">
-    <div class="col-1-1">
+<p>I tend to think of rhythm as two separate, yet interlaced, spacing systems in both axes. On the horizontal axis, many designers use some form of a grid (i.e the famous <a href="http://960.gs/">960 grid system</a>). This underlying structure helps break the content to multiple pieces, each carefully spaced from the others by a uniform gutter.</p>
 
-<img src="/img/projects/sneaky-james/paper.png" class="mb-1 media-fluid centered dblock" alt="">
+<p>The second axis is, of course, the vertical one. Here, rhythm is more easily ignored. While laying out the content horizontally is, usually, a manner of floating divs (or, more recently, flexbox), properly aligning content on a vertical axis is, mainly, a careful consideration of web typography. Because most content on the web is text, evident by the fact we have so many text related HTML tags, vertical rhythm is mostly formed by the relation of these tags to one another.</p>
 
-<div class="align-c">
-    <p>Play Sneaky James <a href="http://kizi.com/games/sneaky-james">here</a>!</p>
+<p>A great article by Richard Rutter, <a href="https://24ways.org/2006/compose-to-a-vertical-rhythm/">&lsquo;Compose to a Vertical Rhythm&rsquo;</a>, goes into far more detail on how to implement a visually pleasing vertical rhythm in web design. However, one caveat is that vertical rhythm is hard to measure. In Adobe InDesign, and other page layout tools, we usually have a simple command to show the baseline grid. In web design, though, we don&rsquo;t have it that easy.</p>
 
-</div>
+<p>A nice tool I found to tackle this issue for me is called <a href="https://basehold.it/">Basehold.it</a>. It does a very simple thing - it displays a grid of vertical lines over the entire page. This is great for aligning things and making sure that the vertical rhythm is maintained throughout. However, I soon had some minor troubles with the service, mainly related to their servers taking too long to respond. I realized there must be some way to host the service locally and quickly decided to replace their image generation code with a far simpler solution: SVG.</p>
+
+<p>The result was a single, easily maintainable CSS file, which uses SVG background-image to create the grid lines. I share this snippet of code here, so if you&rsquo;re looking into vertical rhythm and need a quick tool to show the baseline grid, there you have it:</p>
+
+<script src="//gist.github.com/leshido/af24e64ab6627328bfcb7ae0e93a9684.js"></script>
+
+<p>To use, simply change the height parameter after the first comment, and add the line <code>&lt;link rel=&quot;stylesheet&quot; href=&quot;path/to/baseline.css&quot;&gt;</code> to your page. Just remember to remove the stylesheet before sending the page to production!</p>
 
                 </div>
             </div>
