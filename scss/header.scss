@@ -50,6 +50,7 @@ header {
         border: 1px solid $brand-color;
         display: block;
         transition: background-color 0.1s, color 0.1s;
+        // box-shadow: -2px 2px 0 $brand-color;
         
         &:active {
             transform: scale(0.9);
