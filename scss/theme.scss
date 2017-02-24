@@ -75,6 +75,7 @@ hr {
     // Hide vertical scrollbar
     margin: 0 -50px;
     padding: 0 50px;
+    padding-top: em($base-line-height * 2);
 }
 
 .grid--maxSize {
