@@ -128,7 +128,7 @@ svg.icon {
 @media screen and (min-width: $breakpoint-large) {
 
     .gallery img {
-        max-width: 100%;
+        max-width: none;
         max-height: none;
     }
 
