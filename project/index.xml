@@ -2,394 +2,126 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Projects on Ido Leshem</title>
-    <link>http://leshido.com/project/index.xml</link>
+    <link>http://leshido.com/project/</link>
     <description>Recent content in Projects on Ido Leshem</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Wed, 22 Feb 2017 15:57:19 +0200</lastBuildDate>
-    <atom:link href="http://leshido.com/project/index.xml" rel="self" type="application/rss+xml" />
+    
+	<atom:link href="http://leshido.com/project/index.xml" rel="self" type="application/rss+xml" />
+    
     
     <item>
       <title>Baseline Grid</title>
-      <link>http://leshido.com/baseline-grid</link>
+      <link>http://leshido.com/baseline-grid/</link>
       <pubDate>Wed, 22 Feb 2017 15:57:19 +0200</pubDate>
       
-      <guid>http://leshido.com/baseline-grid</guid>
-      <description>
-
-&lt;h3 id=&#34;simple-css-svg-solution-to-help-with-vertical-rhythm&#34;&gt;Simple CSS+SVG solution to help with vertical rhythm&lt;/h3&gt;
-
-&lt;p&gt;As web designers, we are constantly concerned with the concept of rhythm. Rhythm gives clarity and order to our designs, making our websites more readable and less cluttered.&lt;/p&gt;
-
-&lt;p&gt;I tend to think of rhythm as two separate, yet interlaced, spacing systems in both axes. On the horizontal axis, many designers use some form of a grid (i.e the famous &lt;a href=&#34;http://960.gs/&#34;&gt;960 grid system&lt;/a&gt;). This underlying structure helps break the content to multiple pieces, each carefully spaced from the others by a uniform gutter.&lt;/p&gt;
-
-&lt;p&gt;The second axis is, of course, the vertical one. Here, rhythm is more easily ignored. While laying out the content horizontally is, usually, a manner of floating divs (or, more recently, flexbox), properly aligning content on a vertical axis is, mainly, a careful consideration of web typography. Because most content on the web is text, evident by the fact we have so many text related HTML tags, vertical rhythm is mostly formed by the relation of these tags to one another.&lt;/p&gt;
-
-&lt;p&gt;A great article by Richard Rutter, &lt;a href=&#34;https://24ways.org/2006/compose-to-a-vertical-rhythm/&#34;&gt;&amp;lsquo;Compose to a Vertical Rhythm&amp;rsquo;&lt;/a&gt;, goes into far more detail on how to implement a visually pleasing vertical rhythm in web design. However, one caveat is that vertical rhythm is hard to measure. In Adobe InDesign, and other page layout tools, we usually have a simple command to show the baseline grid. In web design, though, we don&amp;rsquo;t have it that easy.&lt;/p&gt;
-
-&lt;p&gt;A nice tool I found to tackle this issue for me is called &lt;a href=&#34;https://basehold.it/&#34;&gt;Basehold.it&lt;/a&gt;. It does a very simple thing - it displays a grid of vertical lines over the entire page. This is great for aligning things and making sure that the vertical rhythm is maintained throughout. However, I soon had some minor troubles with the service, mainly related to their servers taking too long to respond. I realized there must be some way to host the service locally and quickly decided to replace their image generation code with a far simpler solution: SVG.&lt;/p&gt;
-
-&lt;p&gt;The result was a single, easily maintainable CSS file, which uses SVG background-image to create the grid lines. I share this snippet of code here, so if you&amp;rsquo;re looking into vertical rhythm and need a quick tool to show the baseline grid, there you have it:&lt;/p&gt;
-
-&lt;script src=&#34;//gist.github.com/leshido/af24e64ab6627328bfcb7ae0e93a9684.js&#34;&gt;&lt;/script&gt;
-
-&lt;p&gt;To use, simply change the height parameter after the first comment, and add the line &lt;code&gt;&amp;lt;link rel=&amp;quot;stylesheet&amp;quot; href=&amp;quot;path/to/baseline.css&amp;quot;&amp;gt;&lt;/code&gt; to your page. Just remember to remove the stylesheet before sending the page to production!&lt;/p&gt;
-</description>
+      <guid>http://leshido.com/baseline-grid/</guid>
+      <description>Simple CSS+SVG solution to help with vertical rhythm As web designers, we are constantly concerned with the concept of rhythm. Rhythm gives clarity and order to our designs, making our websites more readable and less cluttered.
+I tend to think of rhythm as two separate, yet interlaced, spacing systems in both axes. On the horizontal axis, many designers use some form of a grid (i.e the famous 960 grid system).</description>
     </item>
     
     <item>
       <title>Slots Rush</title>
-      <link>http://leshido.com/slots-rush</link>
+      <link>http://leshido.com/slots-rush/</link>
       <pubDate>Mon, 20 Feb 2017 03:47:12 +0200</pubDate>
       
-      <guid>http://leshido.com/slots-rush</guid>
-      <description>&lt;p&gt;Slots Rush is a new kind of slots, bringing fast paced action to the classic game of chance. Spin the wheels as many times as you can in 60 seconds and earn prizes and surprises.&lt;/p&gt;
-
-&lt;p&gt;I was in charge of the UI design, branding, and overall art direction.&lt;/p&gt;
-
-
-&lt;div style=&#34;position: relative; padding-bottom: 56.25%; padding-top: 30px; height: 0; overflow: hidden;&#34;&gt;
-  &lt;iframe src=&#34;//www.youtube.com/embed/hKtYycOndQ8&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%;&#34; allowfullscreen frameborder=&#34;0&#34;&gt;&lt;/iframe&gt;
- &lt;/div&gt;
-
-</description>
+      <guid>http://leshido.com/slots-rush/</guid>
+      <description>Slots Rush is a new kind of slots, bringing fast paced action to the classic game of chance. Spin the wheels as many times as you can in 60 seconds and earn prizes and surprises.
+I was in charge of the UI design, branding, and overall art direction.
+  </description>
     </item>
     
     <item>
       <title>Captain Up</title>
-      <link>http://leshido.com/captain-up</link>
+      <link>http://leshido.com/captain-up/</link>
       <pubDate>Sun, 19 Feb 2017 15:52:23 +0200</pubDate>
       
-      <guid>http://leshido.com/captain-up</guid>
-      <description>&lt;p&gt;&lt;strong&gt;Captain Up&lt;/strong&gt; maximizes user engagement and lifetime value, using gamification, social and communication tools. The team approached me early-on to kickstart the brand and design their website and gamification component UI/UX.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&#34;http://leshido.com/img/projects/captain-up/cptUpHomepage.jpg&#34; class=&#34;mb-1 media-fluid centered dblock&#34; alt=&#34;Homepage&#34;&gt;
-&lt;img src=&#34;http://leshido.com/img/projects/captain-up/ui.png&#34; class=&#34;mb-1 media-fluid centered dblock&#34; alt=&#34;UI&#34;&gt;&lt;/p&gt;
-</description>
+      <guid>http://leshido.com/captain-up/</guid>
+      <description>Captain Up maximizes user engagement and lifetime value, using gamification, social and communication tools. The team approached me early-on to kickstart the brand and design their website and gamification component UI/UX.</description>
     </item>
     
     <item>
       <title>Chimps Ahoy!</title>
-      <link>http://leshido.com/chimps-ahoy</link>
+      <link>http://leshido.com/chimps-ahoy/</link>
       <pubDate>Sun, 19 Feb 2017 15:51:39 +0200</pubDate>
       
-      <guid>http://leshido.com/chimps-ahoy</guid>
-      <description>&lt;p&gt;An experimental HTML5 mobile-friendly web game, released also as a mobile app. In &lt;strong&gt;Chimps Ahoy!&lt;/strong&gt; players take the role of an aspiring pirate, leading an army of monkeys across an extremely vast open world which can be freely explored for loot and adventures.&lt;/p&gt;
-
-&lt;div class=&#34;showcase showcase--screen centered&#34;&gt;
-    &lt;div class=&#34;showcase-inner&#34;&gt;
-        &lt;img src=&#34;http://leshido.com/img/projects/chimps-ahoy/voyage.png&#34; alt=&#34;Chimps Ahoy! Screenshot&#34;&gt;
-    &lt;/div&gt;
-&lt;/div&gt;
-
-&lt;/div&gt; 
-&lt;/div&gt; 
-&lt;div class=&#34;gallery&#34;&gt;
-    
-    &lt;img src=&#34;http://leshido.com/img/projects/chimps-ahoy/scr1.png&#34; alt=&#34;&#34;&gt;
-    &lt;img src=&#34;http://leshido.com/img/projects/chimps-ahoy/scr2.png&#34; alt=&#34;&#34;&gt;
-    &lt;img src=&#34;http://leshido.com/img/projects/chimps-ahoy/scr3.png&#34; alt=&#34;&#34;&gt;
-    &lt;img src=&#34;http://leshido.com/img/projects/chimps-ahoy/battle.png&#34; alt=&#34;&#34;&gt;
-
-&lt;/div&gt;
-&lt;div class=&#34;grid grid--maxSize&#34;&gt;
-    &lt;div class=&#34;col-1-1&#34;&gt;
-
-&lt;img src=&#34;http://leshido.com/img/projects/chimps-ahoy/elements.png&#34; class=&#34;mb-1 media-fluid centered dblock&#34; alt=&#34;Content from Chimps Ahoy&#34;&gt;
-
-&lt;div class=&#34;align-c&#34;&gt;
-    &lt;p&gt;Check out the game &lt;a href=&#34;https://play.google.com/store/apps/details?id=com.funtomic.chimpsahoy&amp;amp;hl=en&#34;&gt;here&lt;/a&gt;!&lt;/p&gt;
-
-&lt;/div&gt;
-</description>
+      <guid>http://leshido.com/chimps-ahoy/</guid>
+      <description>An experimental HTML5 mobile-friendly web game, released also as a mobile app. In Chimps Ahoy! players take the role of an aspiring pirate, leading an army of monkeys across an extremely vast open world which can be freely explored for loot and adventures.
+     Check out the game here!
+ </description>
     </item>
     
     <item>
       <title>Flying Dodo</title>
-      <link>http://leshido.com/flying-dodo</link>
+      <link>http://leshido.com/flying-dodo/</link>
       <pubDate>Sun, 19 Feb 2017 15:51:29 +0200</pubDate>
       
-      <guid>http://leshido.com/flying-dodo</guid>
-      <description>&lt;p&gt;Flying Dodo is a simple mobile action game, where the player controls Wilbur the Dodo as he flies through the jungle and collects coins to upgrade the jetpack and avoid the evil birds of the jungle.&lt;/p&gt;
-
-&lt;p&gt;I was in charge of the UI, characters and art direction.&lt;/p&gt;
-
-
-&lt;div style=&#34;position: relative; padding-bottom: 56.25%; padding-top: 30px; height: 0; overflow: hidden;&#34;&gt;
-  &lt;iframe src=&#34;//www.youtube.com/embed/1BKCHPPE1bM&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%;&#34; allowfullscreen frameborder=&#34;0&#34;&gt;&lt;/iframe&gt;
- &lt;/div&gt;
-
-
-&lt;p&gt;&lt;span class=&#34;mb-1&#34;&gt;&lt;/span&gt;&lt;/p&gt;
-
-&lt;/div&gt; 
-&lt;/div&gt; 
-&lt;div class=&#34;gallery&#34;&gt;
-    
-    &lt;img src=&#34;http://leshido.com/img/projects/flying-dodo/scr1.png&#34; alt=&#34;&#34;&gt;
-    &lt;img src=&#34;http://leshido.com/img/projects/flying-dodo/scr2.png&#34; alt=&#34;&#34;&gt;
-    &lt;img src=&#34;http://leshido.com/img/projects/flying-dodo/scr3.png&#34; alt=&#34;&#34;&gt;
-
-&lt;/div&gt;
-&lt;div class=&#34;grid grid--maxSize&#34;&gt;
-    &lt;div class=&#34;col-1-1&#34;&gt;
-</description>
+      <guid>http://leshido.com/flying-dodo/</guid>
+      <description>Flying Dodo is a simple mobile action game, where the player controls Wilbur the Dodo as he flies through the jungle and collects coins to upgrade the jetpack and avoid the evil birds of the jungle.
+I was in charge of the UI, characters and art direction.
+  
+   </description>
     </item>
     
     <item>
       <title>Jungle Jelly Twist</title>
-      <link>http://leshido.com/jungle-jelly-twist</link>
+      <link>http://leshido.com/jungle-jelly-twist/</link>
       <pubDate>Sat, 18 Feb 2017 02:39:25 +0200</pubDate>
       
-      <guid>http://leshido.com/jungle-jelly-twist</guid>
-      <description>&lt;div class=&#34;spreadOut mb-1&#34;&gt;
-    &lt;div class=&#34;grid&#34;&gt;
-    
-        &lt;div class=&#34;col-1-2&#34;&gt;
-    &lt;p&gt;&lt;strong&gt;Jungle Jelly Twist&lt;/strong&gt; is small puzzle game, designed for mobile web. Spin the board to either side to match the Jellies with each other. Fun fact, the whole game took about 3 days to make.&lt;/p&gt;
-
-&lt;p&gt;To learn more and play, visit &lt;a href=&#34;http://www.doubleduck.co/licensing/jungle-jelly-twist/&#34;&gt;this page&lt;/a&gt;.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&#34;http://leshido.com/img/projects/jungle-jelly/elements.png&#34; class=&#34;mb-1 media-fluid centered dblock&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
-
-&lt;/div&gt;
-
-&lt;div class=&#34;col-1-2&#34;&gt;
-    &lt;div class=&#34;showcase showcase--mobile centered&#34;&gt;
-    &lt;div class=&#34;showcase-inner&#34;&gt;
-        &lt;img src=&#34;http://leshido.com/img/thumbs/jungle-jelly.gif&#34; alt=&#34;Jungle Jelly Twist Screenshot&#34;&gt;
-    &lt;/div&gt;
-&lt;/div&gt;
-
-&lt;p&gt;&lt;/div&gt;&lt;/p&gt;
-
-    
-    &lt;/div&gt;
-&lt;/div&gt;
-</description>
+      <guid>http://leshido.com/jungle-jelly-twist/</guid>
+      <description>Jungle Jelly Twist is small puzzle game, designed for mobile web. Spin the board to either side to match the Jellies with each other. Fun fact, the whole game took about 3 days to make.
+To learn more and play, visit this page.
+   
+  </description>
     </item>
     
     <item>
       <title>Sneaky James</title>
-      <link>http://leshido.com/sneaky-james</link>
+      <link>http://leshido.com/sneaky-james/</link>
       <pubDate>Mon, 13 Feb 2017 20:18:29 +0200</pubDate>
       
-      <guid>http://leshido.com/sneaky-james</guid>
-      <description>&lt;p&gt;Sneaky James is a mobile-friendly web stealth game, released also as a mobile app. The player takes control over a cat burglar, using timing and careful planning to outwit the guards and get away with the loot.&lt;/p&gt;
-
-&lt;p&gt;The game&amp;rsquo;s art style was inspired by Film Noir and detective movies, but had to be kept casual enough to appeal to younger audiences.&lt;/p&gt;
-
-&lt;/div&gt; 
-&lt;/div&gt; 
-&lt;div class=&#34;gallery&#34;&gt;
-    
-    &lt;img src=&#34;http://leshido.com/img/projects/sneaky-james/scr1.png&#34; alt=&#34;&#34;&gt;
-    &lt;img src=&#34;http://leshido.com/img/projects/sneaky-james/scr4.png&#34; alt=&#34;&#34;&gt;
-    &lt;img src=&#34;http://leshido.com/img/projects/sneaky-james/scr2.png&#34; alt=&#34;&#34;&gt;
-    &lt;img src=&#34;http://leshido.com/img/projects/sneaky-james/scr3.png&#34; alt=&#34;&#34;&gt;
-
-&lt;/div&gt;
-&lt;div class=&#34;grid grid--maxSize&#34;&gt;
-    &lt;div class=&#34;col-1-1&#34;&gt;
-
-&lt;img src=&#34;http://leshido.com/img/projects/sneaky-james/paper.png&#34; class=&#34;mb-1 media-fluid centered dblock&#34; alt=&#34;&#34;&gt;
-
-&lt;div class=&#34;align-c&#34;&gt;
-    &lt;p&gt;Play Sneaky James &lt;a href=&#34;http://kizi.com/games/sneaky-james&#34;&gt;here&lt;/a&gt;!&lt;/p&gt;
-
-&lt;/div&gt;
-</description>
+      <guid>http://leshido.com/sneaky-james/</guid>
+      <description>Sneaky James is a mobile-friendly web stealth game, released also as a mobile app. The player takes control over a cat burglar, using timing and careful planning to outwit the guards and get away with the loot.
+The game&amp;rsquo;s art style was inspired by Film Noir and detective movies, but had to be kept casual enough to appeal to younger audiences.
+   Play Sneaky James here!
+ </description>
     </item>
     
     <item>
       <title>Dynamons World</title>
-      <link>http://leshido.com/dynamons-world</link>
+      <link>http://leshido.com/dynamons-world/</link>
       <pubDate>Mon, 13 Feb 2017 01:29:39 +0200</pubDate>
       
-      <guid>http://leshido.com/dynamons-world</guid>
-      <description>&lt;p&gt;Released for mobile platforms and as an HTML5 mobile-friendly web game, Dynamons World is played by millions of players worldwide. Featuring an exciting storyline and fun characters, players can battle each other in the Online Arena and explore the game to find and catch unique creatures.&lt;/p&gt;
-
-&lt;div class=&#34;spreadOut mb-1&#34;&gt;
-    &lt;div class=&#34;grid&#34;&gt;
-    
-        
-
-&lt;div class=&#34;col-2-3&#34;&gt;
-    &lt;p&gt;All backgrounds are completely hand-drawn, designed to feel like background art from an animated series.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&#34;http://leshido.com/img/projects/dynamons-world/bg-art.png&#34; class=&#34;mb-1 media-fluid centered dblock&#34; alt=&#34;Background Art from Dynamons World&#34;&gt;&lt;/p&gt;
-
-&lt;/div&gt;
-
-&lt;div class=&#34;col-1-3&#34;&gt;
-    &lt;div class=&#34;showcase showcase--mobile centered&#34;&gt;
-    &lt;div class=&#34;showcase-inner&#34;&gt;
-        &lt;img src=&#34;http://leshido.com/img/projects/dynamons-world/showcase.jpg&#34; alt=&#34;Dynamons World Screenshot&#34;&gt;
-    &lt;/div&gt;
-&lt;/div&gt;
-
-&lt;/div&gt;
-
-
-    
-    &lt;/div&gt;
-&lt;/div&gt;
-
-&lt;p&gt;&lt;/div&gt; 
-&lt;/div&gt; 
-&lt;div class=&#34;gallery&#34;&gt;
-    
-    &lt;img src=&#34;http://leshido.com/img/projects/dynamons-world/scr1.png&#34; alt=&#34;Screenshot&#34;&gt;
-    &lt;img src=&#34;http://leshido.com/img/projects/dynamons-world/scr2.png&#34; alt=&#34;Screenshot&#34;&gt;
-    &lt;img src=&#34;http://leshido.com/img/projects/dynamons-world/scr3.png&#34; alt=&#34;Screenshot&#34;&gt;
-    &lt;img src=&#34;http://leshido.com/img/projects/dynamons-world/scr4.png&#34; alt=&#34;Screenshot&#34;&gt;
-
-&lt;/div&gt;
-&lt;div class=&#34;grid grid--maxSize&#34;&gt;
-    &lt;div class=&#34;col-1-1&#34;&gt;&lt;/p&gt;
-
-&lt;/div&gt; 
-&lt;/div&gt; 
-&lt;div class=&#34;gallery&#34;&gt;
-    
-    &lt;img src=&#34;http://leshido.com/img/projects/dynamons-world/maps/cave.jpg&#34; alt=&#34;River Falls&#34;&gt;
-    &lt;img src=&#34;http://leshido.com/img/projects/dynamons-world/maps/powerplant.jpg&#34; alt=&#34;Solar Power Plant&#34;&gt;
-    &lt;img src=&#34;http://leshido.com/img/projects/dynamons-world/maps/snow.jpg&#34; alt=&#34;Winterdale&#34;&gt;
-    &lt;img src=&#34;http://leshido.com/img/projects/dynamons-world/maps/ruins.jpg&#34; alt=&#34;Temple Ruins&#34;&gt;
-    &lt;img src=&#34;http://leshido.com/img/projects/dynamons-world/maps/volcano.jpg&#34; alt=&#34;Volcano&#34;&gt;
-    &lt;img src=&#34;http://leshido.com/img/projects/dynamons-world/maps/costa.jpg&#34; alt=&#34;Costa Gueta&#34;&gt;
-
-&lt;/div&gt;
-&lt;div class=&#34;grid grid--maxSize&#34;&gt;
-    &lt;div class=&#34;col-1-1&#34;&gt;
-
-&lt;p&gt;&lt;/div&gt; 
-&lt;/div&gt; 
-&lt;div class=&#34;gallery&#34;&gt;
-    
-    &lt;img src=&#34;http://leshido.com/img/projects/dynamons-world/bgs/camp.jpg&#34; alt=&#34;&#34;&gt;
-    &lt;img src=&#34;http://leshido.com/img/projects/dynamons-world/bgs/cave.jpg&#34; alt=&#34;&#34;&gt;
-    &lt;img src=&#34;http://leshido.com/img/projects/dynamons-world/bgs/woods.jpg&#34; alt=&#34;&#34;&gt;
-    &lt;img src=&#34;http://leshido.com/img/projects/dynamons-world/bgs/desert.jpg&#34; alt=&#34;&#34;&gt;
-    &lt;img src=&#34;http://leshido.com/img/projects/dynamons-world/bgs/water.jpg&#34; alt=&#34;&#34;&gt;
-    &lt;img src=&#34;http://leshido.com/img/projects/dynamons-world/bgs/snow.jpg&#34; alt=&#34;&#34;&gt;
-    &lt;img src=&#34;http://leshido.com/img/projects/dynamons-world/bgs/beach.jpg&#34; alt=&#34;&#34;&gt;
-    &lt;img src=&#34;http://leshido.com/img/projects/dynamons-world/bgs/volcano.jpg&#34; alt=&#34;&#34;&gt;
-    &lt;img src=&#34;http://leshido.com/img/projects/dynamons-world/bgs/jungle.jpg&#34; alt=&#34;&#34;&gt;
-    &lt;img src=&#34;http://leshido.com/img/projects/dynamons-world/bgs/stadium.jpg&#34; alt=&#34;&#34;&gt;
-
-&lt;/div&gt;
-&lt;div class=&#34;grid grid--maxSize&#34;&gt;
-    &lt;div class=&#34;col-1-1&#34;&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;/div&gt; 
-&lt;/div&gt; 
-&lt;div class=&#34;gallery&#34;&gt;
-    
-    &lt;img src=&#34;http://leshido.com/img/projects/dynamons-world/dy/armadigo.png&#34; alt=&#34;&#34;&gt;
-    &lt;img src=&#34;http://leshido.com/img/projects/dynamons-world/dy/aviatos.png&#34; alt=&#34;&#34;&gt;
-    &lt;img src=&#34;http://leshido.com/img/projects/dynamons-world/dy/humzee.png&#34; alt=&#34;&#34;&gt;
-    &lt;img src=&#34;http://leshido.com/img/projects/dynamons-world/dy/hopchop.png&#34; alt=&#34;&#34;&gt;
-    &lt;img src=&#34;http://leshido.com/img/projects/dynamons-world/dy/duckron.png&#34; alt=&#34;&#34;&gt;
-    &lt;img src=&#34;http://leshido.com/img/projects/dynamons-world/dy/beebot.png&#34; alt=&#34;&#34;&gt;
-    &lt;img src=&#34;http://leshido.com/img/projects/dynamons-world/dy/foxcarf.png&#34; alt=&#34;&#34;&gt;
-    &lt;img src=&#34;http://leshido.com/img/projects/dynamons-world/dy/flamboar.png&#34; alt=&#34;&#34;&gt;
-    &lt;img src=&#34;http://leshido.com/img/projects/dynamons-world/dy/tailton.png&#34; alt=&#34;&#34;&gt;
-    &lt;img src=&#34;http://leshido.com/img/projects/dynamons-world/dy/nintoise.png&#34; alt=&#34;&#34;&gt;
-    &lt;img src=&#34;http://leshido.com/img/projects/dynamons-world/dy/sluglug.png&#34; alt=&#34;&#34;&gt;
-    &lt;img src=&#34;http://leshido.com/img/projects/dynamons-world/dy/winger.png&#34; alt=&#34;&#34;&gt;
-    &lt;img src=&#34;http://leshido.com/img/projects/dynamons-world/dy/tuffnut.png&#34; alt=&#34;&#34;&gt;
-    &lt;img src=&#34;http://leshido.com/img/projects/dynamons-world/dy/falcano.png&#34; alt=&#34;&#34;&gt;
-    &lt;img src=&#34;http://leshido.com/img/projects/dynamons-world/dy/buzelle.png&#34; alt=&#34;&#34;&gt;
-    &lt;img src=&#34;http://leshido.com/img/projects/dynamons-world/dy/kikflick.png&#34; alt=&#34;&#34;&gt;
-    &lt;img src=&#34;http://leshido.com/img/projects/dynamons-world/dy/menza.png&#34; alt=&#34;&#34;&gt;
-    &lt;img src=&#34;http://leshido.com/img/projects/dynamons-world/dy/torchip.png&#34; alt=&#34;&#34;&gt;
-    &lt;img src=&#34;http://leshido.com/img/projects/dynamons-world/dy/pumpking.png&#34; alt=&#34;&#34;&gt;
-    &lt;img src=&#34;http://leshido.com/img/projects/dynamons-world/dy/psython.png&#34; alt=&#34;&#34;&gt;
-    &lt;img src=&#34;http://leshido.com/img/projects/dynamons-world/dy/shadowl.png&#34; alt=&#34;&#34;&gt;
-    &lt;img src=&#34;http://leshido.com/img/projects/dynamons-world/dy/shellby.png&#34; alt=&#34;&#34;&gt;
-    &lt;img src=&#34;http://leshido.com/img/projects/dynamons-world/dy/leafrog.png&#34; alt=&#34;&#34;&gt;
-    &lt;img src=&#34;http://leshido.com/img/projects/dynamons-world/dy/spidread.png&#34; alt=&#34;&#34;&gt;
-    &lt;img src=&#34;http://leshido.com/img/projects/dynamons-world/dy/snorky.png&#34; alt=&#34;&#34;&gt;
-    &lt;img src=&#34;http://leshido.com/img/projects/dynamons-world/dy/tazer.png&#34; alt=&#34;&#34;&gt;
-
-&lt;/div&gt;
-&lt;div class=&#34;grid grid--maxSize&#34;&gt;
-    &lt;div class=&#34;col-1-1&#34;&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&#34;http://leshido.com/img/projects/dynamons-world/items.png&#34; class=&#34;mb-1 media-fluid centered dblock&#34; alt=&#34;Items&#34;&gt;&lt;/p&gt;
-
-&lt;div class=&#34;align-c&#34;&gt;
-    &lt;p&gt;To learn more and find out where to play, visit &lt;a href=&#34;http://dynamons.world&#34;&gt;this page&lt;/a&gt;!&lt;/p&gt;
-
-&lt;/div&gt;
-</description>
+      <guid>http://leshido.com/dynamons-world/</guid>
+      <description>Released for mobile platforms and as an HTML5 mobile-friendly web game, Dynamons World is played by millions of players worldwide. Featuring an exciting storyline and fun characters, players can battle each other in the Online Arena and explore the game to find and catch unique creatures.
+All backgrounds are completely hand-drawn, designed to feel like background art from an animated series.
+                  To learn more and find out where to play, visit this page!</description>
     </item>
     
     <item>
       <title>Piratelands TD</title>
-      <link>http://leshido.com/piratelands-td</link>
+      <link>http://leshido.com/piratelands-td/</link>
       <pubDate>Sun, 19 Feb 2017 15:51:07 +0200</pubDate>
       
-      <guid>http://leshido.com/piratelands-td</guid>
-      <description>&lt;div class=&#34;spreadOut mb-1&#34;&gt;
-    &lt;div class=&#34;grid&#34;&gt;
-    
-        &lt;div class=&#34;col-1-2&#34;&gt;
-    &lt;p&gt;Piratelands TD is a challenging HTML5 mobile-friendly web mini-game, where the player is tasked with guarding the treasure from invading pirates by placing towers and traps along their path.&lt;/p&gt;
-
-&lt;p&gt;For more details and a playable demo, check out &lt;a href=&#34;http://www.doubleduck.co/licensing/piratelands-td/&#34;&gt;this link&lt;/a&gt;.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&#34;http://leshido.com/img/projects/piratelands/levels-map.png&#34; class=&#34;mb-1 media-fluid centered dblock&#34; alt=&#34;Levels Menu&#34;&gt;&lt;/p&gt;
-
-&lt;/div&gt;
-
-&lt;div class=&#34;col-1-2&#34;&gt;
-    &lt;div class=&#34;showcase showcase--mobile centered&#34;&gt;
-    &lt;div class=&#34;showcase-inner&#34;&gt;
-        &lt;img src=&#34;http://leshido.com/img/projects/piratelands/piratelands-anim.gif&#34; alt=&#34;Piratelands TD Screenshot&#34;&gt;
-    &lt;/div&gt;
-&lt;/div&gt;
-
-&lt;p&gt;&lt;/div&gt;&lt;/p&gt;
-
-    
-    &lt;/div&gt;
-&lt;/div&gt;
-
-&lt;p&gt;&lt;img src=&#34;http://leshido.com/img/projects/piratelands/ui.png&#34; class=&#34;mb-1 media-fluid centered dblock&#34; alt=&#34;UI elements&#34;&gt;&lt;/p&gt;
-</description>
+      <guid>http://leshido.com/piratelands-td/</guid>
+      <description>Piratelands TD is a challenging HTML5 mobile-friendly web mini-game, where the player is tasked with guarding the treasure from invading pirates by placing towers and traps along their path.
+For more details and a playable demo, check out this link.
+   
+  </description>
     </item>
     
     <item>
       <title>Double Duck</title>
-      <link>http://leshido.com/double-duck</link>
+      <link>http://leshido.com/double-duck/</link>
       <pubDate>Sun, 19 Feb 2017 15:50:31 +0200</pubDate>
       
-      <guid>http://leshido.com/double-duck</guid>
-      <description>&lt;p&gt;&lt;a href=&#34;http://doubleduck.co&#34;&gt;Double Duck&lt;/a&gt; is a game studio I have co-founded in 2012.&lt;/p&gt;
-
-&lt;p&gt;The studio has produced over 50 mobile games, many of them targeted at various HTML5 platforms, and has worked with major international brands to bring quality content to millions of players worldwide.&lt;/p&gt;
-
-&lt;img src=&#34;http://leshido.com/img/projects/dduck/logo.gif&#34; class=&#34;mb-1 media-fluid centered dblock&#34; alt=&#34;Double Duck logo&#34;&gt;
-
-&lt;p&gt;&lt;div class=&#34;align-c&#34;&gt;
-    &lt;p&gt;Logo evolution&lt;/p&gt;
-
-&lt;/div&gt;
-&lt;img src=&#34;http://leshido.com/img/projects/dduck/logo-evo.png&#34; class=&#34;mb-1 media-fluid centered dblock&#34; alt=&#34;Logo evolution&#34;&gt;&lt;/p&gt;
-
-&lt;div class=&#34;showcase showcase--screen centered&#34;&gt;
-    &lt;div class=&#34;showcase-inner&#34;&gt;
-        &lt;img src=&#34;http://leshido.com/img/projects/dduck/site.png&#34; alt=&#34;Double Duck Screenshot&#34;&gt;
-    &lt;/div&gt;
-&lt;/div&gt;
-
-&lt;div class=&#34;align-c&#34;&gt;
-    &lt;p&gt;Visit the &lt;a href=&#34;http://doubleduck.co&#34;&gt;Double Duck site&lt;/a&gt; to learn more.&lt;/p&gt;
-
-&lt;/div&gt;
-</description>
+      <guid>http://leshido.com/double-duck/</guid>
+      <description>Double Duck is a game studio I have co-founded in 2012.
+The studio has produced over 50 mobile games, many of them targeted at various HTML5 platforms, and has worked with major international brands to bring quality content to millions of players worldwide.
+Logo evolution
+ Visit the Double Duck site to learn more.
+ </description>
     </item>
     
   </channel>
