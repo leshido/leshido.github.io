@@ -6,19 +6,45 @@
     <description>Recent content in Projects on Ido Leshem</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 22 Feb 2017 15:57:19 +0200</lastBuildDate>
+    <lastBuildDate>Mon, 13 Feb 2017 01:29:39 +0200</lastBuildDate>
     
 	<atom:link href="http://leshido.com/project/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
-      <title>Baseline Grid</title>
-      <link>http://leshido.com/baseline-grid/</link>
-      <pubDate>Wed, 22 Feb 2017 15:57:19 +0200</pubDate>
+      <title>Dynamons World</title>
+      <link>http://leshido.com/dynamons-world/</link>
+      <pubDate>Mon, 13 Feb 2017 01:29:39 +0200</pubDate>
       
-      <guid>http://leshido.com/baseline-grid/</guid>
-      <description>Simple CSS+SVG solution to help with vertical rhythm As web designers, we are constantly concerned with the concept of rhythm. Rhythm gives clarity and order to our designs, making our websites more readable and less cluttered.
-I tend to think of rhythm as two separate, yet interlaced, spacing systems in both axes. On the horizontal axis, many designers use some form of a grid (i.e the famous 960 grid system).</description>
+      <guid>http://leshido.com/dynamons-world/</guid>
+      <description>Released for mobile platforms and as an HTML5 mobile-friendly web game, Dynamons World is played by millions of players worldwide. Featuring an exciting storyline and fun characters, players can battle each other in the Online Arena and explore the game to find and catch unique creatures.
+All backgrounds are completely hand-drawn, designed to feel like background art from an animated series.
+                  To learn more and find out where to play, visit this page!</description>
+    </item>
+    
+    <item>
+      <title>Piratelands TD</title>
+      <link>http://leshido.com/piratelands-td/</link>
+      <pubDate>Sun, 19 Feb 2017 15:51:07 +0200</pubDate>
+      
+      <guid>http://leshido.com/piratelands-td/</guid>
+      <description>Piratelands TD is a challenging HTML5 mobile-friendly web mini-game, where the player is tasked with guarding the treasure from invading pirates by placing towers and traps along their path.
+For more details and a playable demo, check out this link.
+   
+  </description>
+    </item>
+    
+    <item>
+      <title>Double Duck</title>
+      <link>http://leshido.com/double-duck/</link>
+      <pubDate>Sun, 19 Feb 2017 15:50:31 +0200</pubDate>
+      
+      <guid>http://leshido.com/double-duck/</guid>
+      <description>Double Duck is a game studio I have co-founded in 2012.
+The studio has produced over 50 mobile games, many of them targeted at various HTML5 platforms, and has worked with major international brands to bring quality content to millions of players worldwide.
+Logo evolution
+ Visit the Double Duck site to learn more.
+ </description>
     </item>
     
     <item>
@@ -85,42 +111,6 @@ To learn more and play, visit this page.
       <description>Sneaky James is a mobile-friendly web stealth game, released also as a mobile app. The player takes control over a cat burglar, using timing and careful planning to outwit the guards and get away with the loot.
 The game&amp;rsquo;s art style was inspired by Film Noir and detective movies, but had to be kept casual enough to appeal to younger audiences.
    Play Sneaky James here!
- </description>
-    </item>
-    
-    <item>
-      <title>Dynamons World</title>
-      <link>http://leshido.com/dynamons-world/</link>
-      <pubDate>Mon, 13 Feb 2017 01:29:39 +0200</pubDate>
-      
-      <guid>http://leshido.com/dynamons-world/</guid>
-      <description>Released for mobile platforms and as an HTML5 mobile-friendly web game, Dynamons World is played by millions of players worldwide. Featuring an exciting storyline and fun characters, players can battle each other in the Online Arena and explore the game to find and catch unique creatures.
-All backgrounds are completely hand-drawn, designed to feel like background art from an animated series.
-                  To learn more and find out where to play, visit this page!</description>
-    </item>
-    
-    <item>
-      <title>Piratelands TD</title>
-      <link>http://leshido.com/piratelands-td/</link>
-      <pubDate>Sun, 19 Feb 2017 15:51:07 +0200</pubDate>
-      
-      <guid>http://leshido.com/piratelands-td/</guid>
-      <description>Piratelands TD is a challenging HTML5 mobile-friendly web mini-game, where the player is tasked with guarding the treasure from invading pirates by placing towers and traps along their path.
-For more details and a playable demo, check out this link.
-   
-  </description>
-    </item>
-    
-    <item>
-      <title>Double Duck</title>
-      <link>http://leshido.com/double-duck/</link>
-      <pubDate>Sun, 19 Feb 2017 15:50:31 +0200</pubDate>
-      
-      <guid>http://leshido.com/double-duck/</guid>
-      <description>Double Duck is a game studio I have co-founded in 2012.
-The studio has produced over 50 mobile games, many of them targeted at various HTML5 platforms, and has worked with major international brands to bring quality content to millions of players worldwide.
-Logo evolution
- Visit the Double Duck site to learn more.
  </description>
     </item>
     
